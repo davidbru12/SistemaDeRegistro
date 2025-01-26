@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Registro</h1>
+        <form action="recogeDatos.jsp" method="post">
+            <table>
+                <tr>
+                    <td class="etiqueta">Nombre:</td>
+                    <td class="dato"><input type="text" name="nombre"></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Apellido:</td>
+                    <td class="dato"><input type="text" name="apellido"></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Usuario:</td>
+                    <td class="dato"><input type="text" name="usuario"></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Contraseña:</td>
+                    <td class="dato"><input type="password" name="contraseña"></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Pais</td>
+                    <td class="dato">
+                        <select name="pais">
+                            <option>Mexico</option>
+                            <option>España</option>
+                            <option>Venezuela</option>
+                            <option>Colombia</option>
+                            <option>USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Tecnologias</td>
+                    <td class="dato">
+                        Java<input type="radio" name="tecnologias" value="Java"/></br>
+                        PHP<input type="radio" name="tecnologias" value="php"/></br>
+                        JavaScript<input type="radio" name="tecnologias" value="JavaSccript"/></br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="buton" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>

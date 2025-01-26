@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                text-align: center;
+            }
+            table{
+                width: 25%;
+                background-color: #FF6;
+                padding: 10px;
+                border: solid 2px red;
+                margin: auto;
+                text-align: center;
+            }
+            .dato{
+                width: 8%
+            }
+            .etiqueta{
+                width: 17%;
+                text-align: center;
+                margin-left: 10px;
+            }
+            td{
+                padding: 5px;
+            }
+            body{
+                background-color: khaki;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form action="validaUser.jsp" method="post">
+            <table>
+                <tr>
+                    <td class="etiqueta">Usuario</td>
+                    <td class="dato"><input type="text" name="usuario"></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Contraseña</td>
+                    <td class="dato"><input type="password" name="contraseña"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="buton" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
