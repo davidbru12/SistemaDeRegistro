@@ -17,7 +17,7 @@ SistemaDeRegistro es una aplicación en Java para la gestión y registro de info
 
 ## Configuración
 1. Clona el repositorio:
-   ```bash
+   ```
    git clone https://github.com/davidbru12/SistemaDeRegistro.git
    ```
 2. Configura la base de datos:
@@ -37,7 +37,7 @@ SistemaDeRegistro/
 ## Contribuciones
 1. Haz un fork.
 2. Crea una rama:
-   ```bash
+   ```
    git checkout -b feature/nueva-funcionalidad
    ```
 3. Haz un commit y abre un Pull Request.
